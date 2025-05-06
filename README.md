@@ -1,6 +1,6 @@
-## Developed by: Nirmal N
+## Developed by: Suraj Sharma
 
-## RegisterNumber: 212223240107
+## RegisterNumber: 212224050052
 
 Exp no :  1 - Study of basic gates
 
