@@ -70,19 +70,30 @@ Y= A⊕B
 
 **PROGRAM**
 
-Program for logic gates and verify its truth table in quartus using Verilog programming
+    module exp1(a,b,c,d,e,x,y,z);
+    input a,b;
+    output c,d,e,x,y,z;
+    and  (c,a,b);
+    or   (d,a,b);
+    xor  (e,a,b);
+    nand (x,a,b);
+    nor  (y,a,b);
+    xnor (z,a,b);
+    endmodule
 
 
-![program](https://github.com/user-attachments/assets/5bb8fabb-2d9f-4fc3-a134-a73df9e72189)
- 
+
+
 **Logic symbol & Truthtable**
-![Screenshot 2025-03-17 221645](https://github.com/user-attachments/assets/c6820906-34a1-4b54-adbe-3903e772a207)
-![Screenshot 2025-03-18 213647](https://github.com/user-attachments/assets/c0f1e4ab-19dc-4f68-981a-9d172ca9f5cf)
+![WhatsApp Image 2026-02-18 at 3 39 42 PM](https://github.com/user-attachments/assets/a6a90661-c071-4b17-afa3-5b3372dcf142)
+![WhatsApp Image 2026-02-18 at 3 39 49 PM](https://github.com/user-attachments/assets/522d7199-6e44-4d25-8f63-a46ba3b0ae3f)
+
 
 **RTL realization Output:** 
-![waveform](https://github.com/user-attachments/assets/914ae0f9-a57b-429a-ae50-add185e2485a)
+<img width="1600" height="952" alt="image" src="https://github.com/user-attachments/assets/f6f9b3e4-0c67-4eed-89b9-3e0b9df8ad25" />
 
-**RTL**
+
+
 
 **Result:**
 Thus the program for logic gates with different combinations is verified successfully.
